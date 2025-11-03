@@ -34,8 +34,7 @@ class AccountJournal(models.Model):
     _name = "account.journal"
     _description = "Journal"
     _order = 'sequence, type, code'
-    _inherit = ['portal.mixin',
-                'mail.alias.mixin.optional',
+    _inherit = ['mail.alias.mixin.optional',
                 'mail.thread',
                 'mail.activity.mixin',
                ]

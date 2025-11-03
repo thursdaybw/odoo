@@ -11,6 +11,5 @@
         "data/dashboards.xml",
     ],
     'installable': True,
-    'auto_install': ['account'],
     'license': 'LGPL-3',
 }

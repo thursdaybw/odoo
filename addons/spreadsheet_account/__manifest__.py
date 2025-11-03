@@ -8,7 +8,6 @@
     'description': 'Spreadsheet Accounting formulas',
     'depends': ['spreadsheet', 'account'],
     'installable': True,
-    'auto_install': True,
     'license': 'LGPL-3',
     'assets': {
         'spreadsheet.o_spreadsheet': [
